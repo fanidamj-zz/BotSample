@@ -92,6 +92,10 @@ namespace BotSampleApplication
             return Data;
         }
 
+        //[BestMatch(new string[] { "how goes it", "how do", "hows it going", "how about",
+        //"what about", "whats up", "show", "hows things","How about you" },
+        //threshold: 0.5, ignoreCase: true, ignoreNonAlphaNumericCharacters: false)]
+
         private Activity HandleSystemMessage(Activity message)
         {
             if (message.Type == ActivityTypes.DeleteUserData)
