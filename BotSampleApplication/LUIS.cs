@@ -6,7 +6,7 @@ using System.Web;
 
 namespace BotSampleApplication
 {
-    [LuisModel("bba98265-1e15-4f4a-8bfd-294e8fc0c8f8", "966e95b03c9c445686088c7785c3f85c")]
+   
 
     public class Rootobject
     {
